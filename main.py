@@ -21,21 +21,22 @@ for i in range(1,10000):
 
 
 #find percentage for each of them
+
+
 a = 0
 for i in range(len(randomlist)):
   if randomlist[i] == 1:
     a += 1
 percent1 = (a/10110)*100
 
-print(percent1)
-
+print("1- " , percent1)
 b = 0
 for i in range(len(randomlist)):
   if randomlist[i] == 2:
     b += 1
 percent2 = (b/10110)*100
 
-print(percent2)
+print("2- " , percent2)
 
 c = 0
 for i in range(len(randomlist)):
@@ -43,7 +44,7 @@ for i in range(len(randomlist)):
     c += 1
 percent3 = (c/10110)*100
 
-print(percent3)
+print("3- " , percent3)
 
 d = 0
 for i in range(len(randomlist)):
@@ -51,7 +52,7 @@ for i in range(len(randomlist)):
     d += 1
 percent4 = (d/10110)*100
 
-print(percent4)
+print("4- " , percent4)
 
 e = 0
 for i in range(len(randomlist)):
@@ -59,7 +60,7 @@ for i in range(len(randomlist)):
     e += 1
 percent5 = (e/10110)*100
 
-print(percent5)
+print("5- " , percent5)
 
 f = 0
 for i in range(len(randomlist)):
@@ -67,11 +68,14 @@ for i in range(len(randomlist)):
     f += 1
 percent6 = (f/10110)*100
 
-print(percent6)
+print("6- " , percent6)
 
 
 #make sure the answer is close to 100. Although, because the percentages are rounded it might not be perfect
 
 check = percent1 + percent2 + percent3 + percent4 + percent5 + percent6
 
-print(check)
+print("check- ", check)
+
+
+
