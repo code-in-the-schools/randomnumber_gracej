@@ -1,3 +1,4 @@
+#make a list for 10,100,10000
 import random
 randomlist = []
 for i in range(1,10):
@@ -69,7 +70,8 @@ percent6 = (f/10110)*100
 print(percent6)
 
 
-#make sure the answer is 100
+#make sure the answer is close to 100. Although, because the percentages are rounded it might not be perfect
+
 check = percent1 + percent2 + percent3 + percent4 + percent5 + percent6
 
 print(check)
