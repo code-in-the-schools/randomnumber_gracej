@@ -172,15 +172,28 @@ for i in range(len(randomlist3)):
 percent6 = (f/100)
 
 print("6 | " , percent6)
+
+
+
 ###
 
 #ask for user input of any numbers 0-9
 
+num= input("enter some numbers with the characters 0-9: ")
+
 #figure out the rate of each number
+z = 1
+for i in range(len(num)):
+  if num[i] == 1:
+    z += 1
+percent1 = (z/100)
+
+print("1 | " , percent1)
+
 
 #convert into a list
 
-#have the computer choose a nrepeat for 10 
+#have the computer choose a number and repeat for 10 
 
 #repeat for 100
 
